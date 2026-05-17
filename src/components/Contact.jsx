@@ -65,3 +65,17 @@ export default function Contact() {
                 className="w-full grad-bg text-white font-body font-medium text-sm py-4 rounded-xl mt-1 glow-purple hover:opacity-90 transition-opacity duration-200"
               >
                 Invia messaggio
+              </button>
+            </div>
+          ) : (
+            <div className="text-center py-16 rounded-2xl border border-purple/20 bg-purple/[0.05]">
+              <div className="text-4xl mb-4">💜</div>
+              <div className="font-display font-bold text-lg text-[#f1f0ff] mb-1">Messaggio ricevuto!</div>
+              <div className="font-body font-light text-sm text-[#6b6a80]">Ti risponderemo presto.</div>
+            </div>
+          )}
+        </Reveal>
+      </div>
+    </section>
+  );
+}
