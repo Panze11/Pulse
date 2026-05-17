@@ -1,0 +1,25 @@
+import Nav from "./components/Nav";
+import Hero from "./components/Hero";
+import Statement from "./components/Statement";
+import Problem from "./components/Problem";
+import Features from "./components/Features";
+import HowItWorks from "./components/HowItWorks";
+import Values from "./components/Values";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
+export default function App() {
+  return (
+    <div className="bg-bg min-h-screen overflow-x-hidden">
+      <Nav />
+      <Hero />
+      <Statement />
+      <Problem />
+      <Features />
+      <HowItWorks />
+      <Values />
+      <Contact />
+      <Footer />
+    </div>
+  );
+}
