@@ -44,8 +44,10 @@ export default function Survey() {
               <div className="w-20 h-20 rounded-2xl grad-bg flex items-center justify-center text-4xl glow-purple">
                 📋
               </div>
-              <button
-                onClick={() => window.open("https://forms.gle/NGrVuSpHMdJZ8jKf6", "_blank")}
+              <a
+                href="https://forms.gle/NGrVuSpHMdJZ8jKf6"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="grad-bg text-white font-body font-medium text-sm px-8 py-3.5 rounded-full glow-purple hover:-translate-y-0.5 hover:shadow-[0_0_60px_rgba(139,92,246,0.45)] transition-all duration-200 whitespace-nowrap"
               >
                 Compila il sondaggio →
