@@ -71,7 +71,7 @@ export default function Problem() {
               <div className="mt-8 flex items-center gap-2 px-4 py-2.5 rounded-full bg-purple/[0.06] border border-purple/[0.12] w-fit">
                 <span className="text-xs">📊</span>
                 <span className="font-body text-xs text-[#6b6a80]">
-                  Dati raccolti da <span className="text-violet">43 risposte reali</span> — maggio 2025
+                  Dati raccolti da <span className="text-violet">43 risposte reali</span> — maggio 2026
                 </span>
               </div>
             </Reveal>

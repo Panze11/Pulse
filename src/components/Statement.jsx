@@ -15,7 +15,7 @@ export default function Statement() {
               💜
             </div>
             <span className="font-body font-light text-sm text-[#6b6a80] tracking-wide">
-              — Il team Pulse, da 43 risposte reali raccolte nel maggio 2025
+              — Il team Pulse, da 43 risposte reali raccolte nel maggio 2026
             </span>
           </div>
         </Reveal>

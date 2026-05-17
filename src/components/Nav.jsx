@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import logo from "../assets/logo.svg";
 
 const links = ["Problema", "Funzionalità", "Percorso", "Valori", "Contatti"];
 
@@ -20,10 +21,8 @@ export default function Nav() {
       }`}
     >
       {/* Logo */}
-      <div className="flex items-center gap-2">
-        <div className="w-7 h-7 rounded-lg grad-bg flex items-center justify-center text-sm">
-          💜
-        </div>
+      <div className="flex items-center gap-2.5">
+        <img src={logo} alt="Pulse" className="h-7 w-auto" />
         <span className="font-display font-extrabold text-lg tracking-tight text-[#f1f0ff]">
           Pulse
         </span>
