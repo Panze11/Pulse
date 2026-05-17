@@ -29,7 +29,7 @@ export default function Contact() {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      access_key: "LA-TUA-ACCESS-KEY",
+      access_key: "d9cf3379-13e4-4fc2-aaa3-4ddfefb92b99",
       name: form.name,
       email: form.email,
       message: form.msg,
