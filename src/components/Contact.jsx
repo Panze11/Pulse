@@ -11,6 +11,48 @@ export default function Contact() {
   const handleSubmit = async () => {
   if (!form.name || !form.email) return;
 
+  await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      access_key: "LA-TUA-ACCESS-KEY",
+      name: form.name,
+      email: form.email,
+      message: form.msg,
+    }),
+  });
+
+  setSent(true);
+};
+
+  await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      access_key: "LA-TUA-ACCESS-KEY",
+      name: form.name,
+      email: form.email,
+      message: form.msg,
+    }),
+  });
+
+  setSent(true);
+};
+
+  await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      access_key: "d9cf3379-13e4-4fc2-aaa3-4ddfefb92b99",
+      name: form.name,
+      email: form.email,
+      message: form.msg,
+    }),
+  });
+
+  setSent(true);
+};
+
   await fetch("https://formspree.io/f/xgoqwboz", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
