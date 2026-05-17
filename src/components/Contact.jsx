@@ -11,7 +11,7 @@ export default function Contact() {
   const handleSubmit = async () => {
   if (!form.name || !form.email) return;
 
-  await fetch("https://formspree.io/f/TUOID", {
+  await fetch("https://formspree.io/f/xgoqwboz", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
