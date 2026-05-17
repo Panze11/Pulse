@@ -2,6 +2,7 @@ import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Statement from "./components/Statement";
 import Problem from "./components/Problem";
+import Survey from "./components/Survey";
 import Features from "./components/Features";
 import HowItWorks from "./components/HowItWorks";
 import Values from "./components/Values";
@@ -15,6 +16,7 @@ export default function App() {
       <Hero />
       <Statement />
       <Problem />
+      <Survey />
       <Features />
       <HowItWorks />
       <Values />
