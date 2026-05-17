@@ -8,9 +8,21 @@ export default function Contact() {
   const inputClass =
     "w-full bg-white/[0.03] border border-white/[0.07] rounded-xl px-5 py-3.5 font-body font-light text-sm text-[#f1f0ff] outline-none focus:border-purple/50 transition-colors duration-200 placeholder:text-[#6b6a80]";
 
-  const handleSubmit = () => {
-    if (form.name && form.email) setSent(true);
-  };
+  const handleSubmit = async () => {
+  if (!form.name || !form.email) return;
+
+  await fetch("https://formspree.io/f/TUOID", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      nome: form.name,
+      email: form.email,
+      messaggio: form.msg,
+    }),
+  });
+
+  setSent(true);
+};
 
   return (
     <section id="contatti" className="py-32 px-[5vw] border-t border-white/[0.07]">
