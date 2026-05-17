@@ -50,7 +50,7 @@ export default function Contact() {
               <input
                 placeholder="La tua email"
                 value={form.email}
-                onChange={e => setForm({ ...form, msg: e.target.value })}
+                onChange={e => setForm({ ...form, email: e.target.value })}
                 className={inputClass}
               />
               <textarea
